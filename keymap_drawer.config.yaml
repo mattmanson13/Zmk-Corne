@@ -1,0 +1,18 @@
+draw_config:
+  key_w: 60.0
+  key_h: 56.0
+  split_gap: 30.0
+  combo_w: 28.0
+  combo_h: 26.0
+  key_rx: 6.0
+  key_ry: 6.0
+  n_columns: 6
+  svg_extra_style: |
+    /* Custom styling for Corne keymap */
+    .combo { font-size: 12px; }
+    .held { fill: #ffd4a3; }
+    .ghost { fill: #f0f0f0; stroke: #d0d0d0; }
+    
+parse_config:
+  preprocess: true
+  zmk_combos: {}
