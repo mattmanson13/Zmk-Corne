@@ -18,4 +18,4 @@ jobs:
       config_path: "keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: ""
+      draw_args: "-n '333333+3 3+333333'"
