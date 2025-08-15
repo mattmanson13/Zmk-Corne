@@ -6,7 +6,7 @@ draw_config:
   combo_h: 26.0
   key_rx: 6.0
   key_ry: 6.0
-  n_columns: 6
+  n_columns: 1
   dark_mode: true
   separate_combo_diagrams: true
   svg_extra_style: |
@@ -15,8 +15,6 @@ draw_config:
     /* Background and main container */
     svg { 
       background-color: #1d2021; 
-      transform: rotate(90deg); 
-      transform-origin: center; 
     }
     
     /* Default key styling */
