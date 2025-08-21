@@ -67,8 +67,8 @@
 
             bindings = <
 &trans  &mt LS(KP_NUMBER_1) KP_NUMBER_1  &mt LS(KP_NUMBER_2) KP_NUMBER_2  &mt LS(KP_NUMBER_3) KP_NUMBER_3  &trans               &kp LA(R)    &mkp LCLK       &trans          &mkp RCLK        &trans  &trans          &trans
-&trans  &mt LS(KP_NUMBER_4) KP_NUMBER_4  &trans                           &trans                           &trans               &trans       &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans  &msc SCRL_UP    &trans
-&trans  &mt LG(C) LC(C)                  &mt LG(V) LC(V)                  &trans                           &kp MINUS            &kp PLUS     &msc SCRL_LEFT  &mmv MOVE_DOWN  &msc SCRL_RIGHT  &trans  &msc SCRL_DOWN  &trans
+&trans  &mt LS(KP_NUMBER_4) KP_NUMBER_4  &trans                           &trans                           &trans               &trans       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans  &msc SCRL_UP    &trans
+&trans  &mt LG(C) LC(C)                  &mt LG(V) LC(V)                  &trans                           &kp MINUS            &kp PLUS     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN  &trans
                                                                           &kp LA(KP_NUMBER_1)              &kp LC(KP_NUMBER_1)  &kp LA(X)    &to 1           &to 2           &to 0
             >;
         };
