@@ -21,10 +21,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET             &kp AMPS             &kp ASTRK             &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &reset        &trans        &trans        &trans        &bt BT_CLR      &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC  &kp PIPE  &trans
-                                       &trans        &trans        &trans          &trans                &to 1                &studio_unlock
+&kp TAB    &kp EXCL      &kp AT        &kp HASH        &kp DLLR      &kp PRCNT       &kp CARET             &kp AMPS             &kp ASTRK             &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &reset        &trans        &trans          &trans        &bt BT_CLR      &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC  &kp PIPE  &trans
+                                       &studio_unlock  &trans        &trans          &trans                &trans               &to 1
             >;
         };
 
@@ -39,7 +39,7 @@
 &trans  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E        &mt NUMBER_4 R  &mt N5 T               &mt NUMBER_6 Y  &mt N7 U     &mt NUMBER_8 I     &mt N9 O         &mt N0 P                &trans
 &trans  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D      &mt LCTRL F     &kp G                  &kp H           &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt LEFT_WIN SEMICOLON  &trans
 &trans  &mt LC(Z) Z     &kp X           &mt LC(C) C           &mt LC(V) V     &kp B                  &kp N           &kp M        &mt COMMA DOT      &kp SLASH        &kp SQT                 &trans
-                                        &mt ESCAPE BACKSPACE  &kp TAB         &mt LA(SPACE) SPACE    &kp RET         &to 2        &to 0
+                                        &mt ESCAPE BACKSPACE  &kp TAB         &mt LA(SPACE) SPACE    &kp RET         &to 0        &to 2
             >;
         };
 
@@ -54,7 +54,7 @@
 &trans  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E        &mt NUMBER_4 R  &mt NUMBER_5 T         &mt NUMBER_6 Y  &mt N7 U  &mt N8 I           &mt N9 O         &mt N0 P                 &trans
 &trans  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D      &kp F           &kp G                  &kp H           &kp J     &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &trans
 &trans  &mt LG(Z) Z     &kp X           &mt LG(C) C           &mt LG(V) V     &kp B                  &kp N           &kp M     &mt COMMA DOT      &kp SLASH        &kp SQT                  &trans
-                                        &mt ESCAPE BACKSPACE  &kp TAB         &mt LA(SPACE) SPACE    &kp RET         &to 3     &to 1
+                                        &mt ESCAPE BACKSPACE  &kp TAB         &mt LA(SPACE) SPACE    &kp RET         &to 1     &to 3
             >;
         };
 
@@ -69,7 +69,7 @@
 &mt LS(KP_NUMBER_1) KP_NUMBER_1  &mt LS(KP_NUMBER_2) KP_NUMBER_2  &mt LS(KP_NUMBER_3) KP_NUMBER_3  &trans               &trans               &kp LA(R)    &mkp LCLK       &trans          &mkp RCLK        &trans          &trans  &trans
 &mt LS(KP_NUMBER_4) KP_NUMBER_4  &trans                           &trans                           &trans               &trans               &trans       &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &msc SCRL_UP    &trans  &trans
 &trans                           &trans                           &trans                           &trans               &trans               &trans       &msc SCRL_LEFT  &mmv MOVE_DOWN  &msc SCRL_RIGHT  &msc SCRL_DOWN  &trans  &trans
-                                                                                                   &kp LA(KP_NUMBER_1)  &kp LC(KP_NUMBER_1)  &kp LA(X)    &kp RA(X)       &to 1           &to 0
+                                                                                                   &kp LA(KP_NUMBER_1)  &kp LC(KP_NUMBER_1)  &kp LA(X)    &to 1           &to 2           &to 0
             >;
         };
     };
