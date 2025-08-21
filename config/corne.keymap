@@ -21,10 +21,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL      &kp AT        &kp HASH        &kp DLLR      &kp PRCNT       &kp CARET             &kp AMPS             &kp ASTRK             &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &reset        &trans        &trans          &trans        &bt BT_CLR      &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC  &kp PIPE  &trans
-                                       &studio_unlock  &trans        &trans          &trans                &trans               &to 1
+&trans  &kp EXCL        &kp AT  &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET             &kp AMPS             &kp ASTRK             &kp LPAR  &mt BACKSPACE RPAR  &trans
+&trans  &reset          &trans  &bt BT_SEL 0  &bt BT_SEL 2  &bt BT_SEL 4    &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT  &mt GRAVE BSLH      &trans
+&trans  &studio_unlock  &trans  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_CLR      &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC  &kp PIPE            &trans
+                                &trans        &trans        &trans          &trans                &trans               &to 1
             >;
         };
 
