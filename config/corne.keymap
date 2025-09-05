@@ -19,27 +19,13 @@
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
+
             display-name = "Sym";
             bindings = <
-&trans  &kp EXCL        &kp AT  &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET             &kp AMPS             &kp ASTRK             &kp LPAR  &mt BACKSPACE RPAR  &trans
-&trans  &sys_reset      &trans  &bt BT_SEL 0  &bt BT_SEL 2  &bt BT_SEL 4    &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT  &mt GRAVE BSLH      &trans
-&trans  &studio_unlock  &trans  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_CLR      &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC  &kp PIPE            &trans
-                                &trans        &trans        &trans          &trans                &trans               &to 1
-            >;
-        };
-
-        Win {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-            display-name = "Win";
-            bindings = <
-&trans  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E        &mt NUMBER_4 R   &mt N5 T               &mt NUMBER_6 Y   &mt N7 U     &mt NUMBER_8 I     &mt N9 O         &mt N0 P                &trans
-&trans  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D      &mt LCTRL F      &kp G                  &kp H            &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt LEFT_WIN SEMICOLON  &trans
-&trans  &mt LC(Z) Z     &kp X           &mt LC(C) C           &mt LC(V) V      &kp B                  &mt LC(LS(N)) N  &kp M        &mt COMMA DOT      &kp SLASH        &kp SQT                 &trans
-                                        &mt ESCAPE BACKSPACE  &mt LA(TAB) TAB  &mt LA(SPACE) SPACE    &kp RET          &to 0        &to 2
+&trans  &mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt HASH NUMBER_3  &mt DLLR NUMBER_4  &mt PRCNT NUMBER_5    &mt CARET NUMBER_6    &mt AMPS N7          &mt ASTRK N8          &mt LPAR N9  &mt RPAR N0     &trans
+&trans  &sys_reset         &trans           &bt BT_SEL 0       &bt BT_SEL 2       &bt BT_SEL 4          &kp MINUS             &mt UP_ARROW EQUAL   &kp LBKT              &kp RBKT     &mt GRAVE BSLH  &trans
+&trans  &studio_unlock     &trans           &bt BT_SEL 1       &bt BT_SEL 3       &bt BT_CLR            &mt LEFT_ARROW UNDER  &mt DOWN_ARROW PLUS  &mt RIGHT_ARROW LBRC  &kp RBRC     &kp PIPE        &trans
+                                            &trans             &trans             &trans                &trans                &trans               &to 1
             >;
         };
 
@@ -49,12 +35,13 @@
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
+
             display-name = "Mac";
             bindings = <
-&trans  &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E        &mt NUMBER_4 R   &mt NUMBER_5 T         &mt NUMBER_6 Y   &mt N7 U  &mt N8 I           &mt N9 O         &mt N0 P                 &trans
-&trans  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D      &kp F            &kp G                  &kp H            &kp J     &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &trans
-&trans  &mt LG(Z) Z     &kp X           &mt LG(C) C           &mt LG(V) V      &kp B                  &mt LG(LS(N)) N  &kp M     &mt COMMA DOT      &kp SLASH        &kp SQT                  &trans
-                                        &mt ESCAPE BACKSPACE  &mt LG(TAB) TAB  &mt LA(SPACE) SPACE    &kp RET          &to 1     &to 3
+&trans  &kp Q           &kp W           &kp E             &kp R                     &kp T                  &kp Y            &kp U  &kp I              &kp O            &kp P                    &trans
+&trans  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &kp F                     &kp G                  &kp H            &kp J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &trans
+&trans  &mt LG(Z) Z     &kp X           &mt LG(C) C       &mt LG(V) V               &kp B                  &mt LG(LS(N)) N  &kp M  &mt COMMA DOT      &kp SLASH        &kp SQT                  &trans
+                                        &mt LA(TAB) TAB   &mt LG(ESCAPE) BACKSPACE  &mt LA(SPACE) SPACE    &kp RET          &to 0  &to 2
             >;
         };
 
@@ -64,12 +51,13 @@
             // |      |     | M_UP|     |     |     |   |     | S_UP|     |     |     |      |
             // |      | M_LT| M_DN| M_RT|     |     |   | S_LT| S_DN| S_RT|     |     |      |
             //                    |     |     |     |   |     |     |     |
+
             display-name = "Trd";
             bindings = <
-&trans  &mt LS(KP_NUMBER_1) KP_NUMBER_1  &mt LS(KP_NUMBER_2) KP_NUMBER_2  &mt LS(KP_NUMBER_3) KP_NUMBER_3  &trans               &kp LA(R)    &mkp LCLK       &trans          &mkp RCLK        &trans  &trans          &trans
-&trans  &mt LS(KP_NUMBER_4) KP_NUMBER_4  &trans                           &trans                           &trans               &trans       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans  &msc SCRL_UP    &trans
-&trans  &mt LG(C) LC(C)                  &mt LG(V) LC(V)                  &trans                           &kp MINUS            &kp PLUS     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN  &trans
-                                                                          &kp LA(KP_NUMBER_1)              &kp LC(KP_NUMBER_1)  &kp LA(X)    &to 1           &to 2           &to 0
+&trans  &mt LS(KP_NUMBER_1) KP_NUMBER_1  &mt LS(KP_NUMBER_2) KP_NUMBER_2  &mt LS(KP_NUMBER_3) KP_NUMBER_3  &trans            &kp LA(R)    &mkp LCLK       &trans          &mkp RCLK        &trans  &trans          &trans
+&trans  &mt LS(KP_NUMBER_4) KP_NUMBER_4  &trans                           &trans                           &trans            &trans       &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans  &msc SCRL_UP    &trans
+&trans  &kp LG(C)                        &kp LG(V)                        &trans                           &kp MINUS         &kp PLUS     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN  &trans
+                                                                          &kp LA(NUMBER_1)                 &kp LC(NUMBER_1)  &kp LA(X)    &trans          &to 1           &to 0
             >;
         };
     };

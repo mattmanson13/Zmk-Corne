@@ -2,16 +2,16 @@ layout: {zmk_keyboard: corne}
 layers:
   Sym:
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - {t: ), h: BACKSPACE}
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
+  - {t: '3', h: '#'}
+  - {t: '4', h: $}
+  - {t: '5', h: '%'}
+  - {t: '6', h: ^}
+  - {t: '7', h: '&'}
+  - {t: '8', h: '*'}
+  - {t: '9', h: (}
+  - {t: '0', h: )}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
@@ -42,62 +42,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Win, h: toggle}
-  Win:
-  - {t: ▽, type: trans}
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
-  - {t: T, h: '5'}
-  - {t: Y, h: '6'}
-  - {t: U, h: '7'}
-  - {t: I, h: '8'}
-  - {t: O, h: '9'}
-  - {t: P, h: '0'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: A, h: LEFT WIN}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LCTRL}
-  - G
-  - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LEFT WIN}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Z, h: Ctl+Z}
-  - X
-  - {t: C, h: Ctl+C}
-  - {t: V, h: Ctl+V}
-  - B
-  - {t: N, h: Ctl+Sft+N}
-  - M
-  - {t: ., h: ','}
-  - /
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: ESCAPE}
-  - {t: TAB, h: Alt+TAB}
-  - {t: SPACE, h: Alt+SPACE}
-  - RET
-  - {t: Sym, h: toggle}
   - {t: Mac, h: toggle}
   Mac:
   - {t: ▽, type: trans}
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
-  - {t: T, h: '5'}
-  - {t: Y, h: '6'}
-  - {t: U, h: '7'}
-  - {t: I, h: '8'}
-  - {t: O, h: '9'}
-  - {t: P, h: '0'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: A, h: LEFT GUI}
@@ -123,11 +80,11 @@ layers:
   - /
   - ''''
   - {t: ▽, type: trans}
-  - {t: BACKSPACE, h: ESCAPE}
-  - {t: TAB, h: Gui+TAB}
+  - {t: TAB, h: Alt+TAB}
+  - {t: BACKSPACE, h: Gui+ESCAPE}
   - {t: SPACE, h: Alt+SPACE}
   - RET
-  - {t: Win, h: toggle}
+  - {t: Sym, h: toggle}
   - {t: Trd, h: toggle}
   Trd:
   - {t: ▽, type: trans}
@@ -155,8 +112,8 @@ layers:
   - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Ctl+C, h: Gui+C}
-  - {t: Ctl+V, h: Gui+V}
+  - Gui+C
+  - Gui+V
   - {t: ▽, type: trans}
   - '-'
   - +
@@ -166,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
-  - Alt+KP 1
-  - Ctl+KP 1
+  - Alt+1
+  - Ctl+1
   - Alt+X
-  - {t: Win, h: toggle}
+  - {t: ▽, type: trans}
   - {t: Mac, h: toggle}
   - {t: Sym, h: toggle}
