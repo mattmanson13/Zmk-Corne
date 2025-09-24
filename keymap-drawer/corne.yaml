@@ -1,48 +1,5 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Sym:
-  - {t: ▽, type: trans}
-  - {t: '1', h: '!'}
-  - {t: '2', h: '@'}
-  - {t: '3', h: '#'}
-  - {t: '4', h: $}
-  - {t: '5', h: '%'}
-  - {t: '6', h: ^}
-  - {t: '7', h: '&'}
-  - {t: '8', h: '*'}
-  - {t: '9', h: (}
-  - {t: '0', h: )}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&sys_reset'
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '4'}
-  - '-'
-  - {t: '=', h: UP ARROW}
-  - '['
-  - ']'
-  - {t: \, h: '`'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '3'}
-  - BT CLR
-  - {t: _, h: LEFT ARROW}
-  - {t: +, h: DOWN ARROW}
-  - {t: '{', h: RIGHT ARROW}
-  - '}'
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Mac, h: toggle}
   Mac:
   - {t: ▽, type: trans}
   - Q
@@ -86,30 +43,73 @@ layers:
   - RET
   - {t: Sym, h: toggle}
   - {t: Trd, h: toggle}
+  Sym:
+  - {t: ▽, type: trans}
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
+  - {t: '3', h: '#'}
+  - {t: '4', h: $}
+  - {t: '5', h: '%'}
+  - {t: '6', h: ^}
+  - {t: '7', h: '&'}
+  - {t: '8', h: '*'}
+  - {t: '9', h: (}
+  - {t: '0', h: )}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '4'}
+  - '-'
+  - {t: '=', h: UP ARROW}
+  - '['
+  - ']'
+  - {t: \, h: '`'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '3'}
+  - BT CLR
+  - {t: _, h: LEFT ARROW}
+  - {t: +, h: DOWN ARROW}
+  - {t: '{', h: RIGHT ARROW}
+  - '}'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Mac, h: toggle}
+  - {t: Trd, h: toggle}
   Trd:
   - {t: ▽, type: trans}
-  - {t: KP 1, h: Sft+KP 1}
-  - {t: KP 2, h: Sft+KP 2}
-  - {t: KP 3, h: Sft+KP 3}
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
-  - Alt+R
+  - Ctl+4
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_UP'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: KP 4, h: Sft+KP 4}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+C
@@ -121,11 +121,11 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
-  - Alt+1
+  - {t: ▽, type: trans}
   - Ctl+1
-  - Alt+X
+  - Ctl+2
+  - Ctl+3
   - {t: ▽, type: trans}
-  - {t: Mac, h: toggle}
   - {t: Sym, h: toggle}
+  - {t: Mac, h: toggle}
