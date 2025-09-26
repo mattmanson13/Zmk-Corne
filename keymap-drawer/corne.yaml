@@ -29,7 +29,7 @@ layers:
   - {t: Z, h: Gui+Z}
   - X
   - {t: C, h: Gui+C}
-  - {t: V, h: Gui+V}
+  - V
   - B
   - {t: N, h: Gui+Sft+N}
   - M
