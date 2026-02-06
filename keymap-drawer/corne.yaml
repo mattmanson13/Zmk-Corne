@@ -92,7 +92,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - Ctl+4
+  - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
@@ -101,10 +101,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
+  - '5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - +
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp RCLK'
@@ -112,11 +112,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+C
-  - Gui+V
+  - {t: Mac, h: toggle}
+  - {t: Sym, h: toggle}
   - {t: ▽, type: trans}
-  - '-'
-  - +
+  - {t: ▽, type: trans}
+  - ENTER
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
