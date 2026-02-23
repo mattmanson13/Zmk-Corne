@@ -115,7 +115,7 @@ layers:
   - {t: Mac, h: toggle}
   - {t: Sym, h: toggle}
   - {t: ▽, type: trans}
-  - '1'
+  - {t: ▽, type: trans}
   - ENTER
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
