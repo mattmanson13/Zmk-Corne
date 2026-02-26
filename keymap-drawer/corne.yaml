@@ -37,8 +37,8 @@ layers:
   - /
   - ''''
   - {t: ▽, type: trans}
-  - {t: TAB, h: Alt+TAB}
-  - {t: BACKSPACE, h: Gui+ESCAPE}
+  - {t: TAB, h: Alt+Gui+TAB}
+  - {t: BACKSPACE, h: ESCAPE}
   - {t: SPACE, h: Gui+SPACE}
   - RET
   - {t: Sym, h: toggle}
