@@ -2,7 +2,7 @@ layout: {zmk_keyboard: corne}
 layers:
   Mac:
   - {t: ▽, type: trans}
-  - Q
+  - {t: Q, h: Trd}
   - W
   - E
   - R
@@ -29,7 +29,7 @@ layers:
   - {t: Z, h: Gui+Z}
   - X
   - {t: C, h: Gui+C}
-  - V
+  - {t: V, h: Gui+V}
   - B
   - {t: N, h: Gui+Sft+N}
   - M
@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: TAB, h: Alt+TAB}
   - {t: BACKSPACE, h: Gui+ESCAPE}
-  - {t: SPACE, h: Alt+SPACE}
+  - {t: SPACE, h: Gui+SPACE}
   - RET
   - {t: Sym, h: toggle}
   - {t: Trd, h: toggle}
@@ -88,7 +88,7 @@ layers:
   - {t: Trd, h: toggle}
   Trd:
   - {t: ▽, type: trans}
-  - '1'
+  - {t: '1', type: held}
   - '2'
   - '3'
   - {t: ▽, type: trans}
