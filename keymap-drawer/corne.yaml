@@ -2,11 +2,11 @@ layout: {zmk_keyboard: corne}
 layers:
   Mac:
   - {t: ▽, type: trans}
-  - {t: Q, h: Trd}
+  - Q
   - W
   - E
   - R
-  - T
+  - {t: T, h: Trd}
   - Y
   - U
   - I
@@ -88,11 +88,11 @@ layers:
   - {t: Trd, h: toggle}
   Trd:
   - {t: ▽, type: trans}
-  - {t: '1', type: held}
+  - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
