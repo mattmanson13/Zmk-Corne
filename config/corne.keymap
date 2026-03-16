@@ -75,10 +75,10 @@
 
             display-name = "Trd";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &trans            &trans              &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans  &trans
-&trans  &kp NUMBER_4  &kp N5        &msc SCRL_UP      &kp MINUS         &kp PLUS            &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &trans  &trans
-&trans  &to 0         &to 1         &msc SCRL_DOWN    &trans            &kp ENTER           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans  &trans
-                                    &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)    &trans          &to 1           &to 0
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans  &trans
+&trans  &kp NUMBER_4  &kp N5        &msc SCRL_UP      &kp MINUS          &kp PLUS            &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &trans  &trans
+&trans  &to 0         &to 1         &msc SCRL_DOWN    &trans             &kp ENTER           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans  &trans
+                                    &kp LC(NUMBER_1)  &kp LC(NUMBER_2)   &kp LC(NUMBER_3)    &trans          &to 1           &to 0
             >;
         };
     };
